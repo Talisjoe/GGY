@@ -740,12 +740,12 @@ textarea {
     inset: 0;
     z-index: 100;
     padding: 20px;
+    overflow-y: auto;
     background: rgba(3, 8, 12, 0.78);
 }
 
 .modal.show {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -753,6 +753,7 @@ textarea {
     position: relative;
     width: 100%;
     max-width: 420px;
+    margin: auto 0;
     padding: 28px;
     background: var(--surface);
     border: 1px solid var(--border);
